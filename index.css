@@ -1,0 +1,143 @@
+@font-face {
+    font-family: Flicker;
+    src: url(flicker3.woff);
+  }
+
+body {
+background-color: #151515;
+background-image: url(assets/grid.png);
+}
+
+header {
+    padding: 20px 100px;
+    height: 60px;
+    justify-content: start;
+    align-items: center;
+}
+
+h1, h2 {
+    color: white;
+    
+}
+
+h1 {
+    font-family: Flicker;
+    font-size: 145px;
+}
+
+h2 {
+    font-family: 'PT Mono', monospace;
+    font-size: 48px;
+    max-width: 590px;
+}
+
+p {
+    color: white;
+    font-family: 'PT Mono', monospace;
+    font-size: 24px;
+    max-width: 590px;
+}
+
+button {
+    background-color: #6CE86C;
+    color: #151515;
+    outline: none;
+    padding: 16px 24px;
+    border: none;
+    font-family: 'PT Mono', monospace;
+    font-size: 24px;
+}
+
+.hero_section{
+    display: flex;
+    align-items: center;   
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero_section button {
+    background-color: #6CE86C;
+    color: #151515;
+}
+.pictures {
+    display: flex;
+    align-items: flex-start;
+}
+
+.section_1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.section_2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+    margin-bottom: 120px;
+}
+
+.section_3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+    background-color: #6CE86C;
+    background-image: url(assets/grid.png);
+    margin-bottom: 120px;
+}
+
+.section_3 h2 {
+    color: #151515;
+}
+.section_4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin-bottom: 120px;
+}
+
+.section_4 container {
+    max-width: 590px;
+    display: flex;
+    flex-direction: column;
+    
+    margin-right: 40px;
+}
+
+.section_5 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    align-items: flex-end;
+    margin-bottom: 160px;
+}
+
+.section_5 container {
+    max-width: 590px;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.section_6 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.section_6 container {
+    max-width: 590px;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.section_6 h2 {
+    font-family: 'PT Mono', monospace;
+}
+
+.section_6 h2 {
+    font-family: 'PT Mono', monospace;
+}
+
+
