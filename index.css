@@ -1,6 +1,6 @@
 @font-face {
     font-family: Flicker;
-    src: url(flicker3.woff);
+    src: url(flicker4.woff);
   }
 
 body {
@@ -23,6 +23,7 @@ h1, h2 {
 h1 {
     font-family: Flicker;
     font-size: 145px;
+    font-weight: 300;
 }
 
 h2 {
