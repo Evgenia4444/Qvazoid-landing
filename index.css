@@ -130,7 +130,7 @@ button {
     max-width: 590px;
     display: flex;
     flex-direction: column;
-  
+    margin-bottom: 100px;
 }
 
 .section_6 h2 {
@@ -142,3 +142,13 @@ button {
 }
 
 
+.prefooter {
+    display: flex;
+    padding: 0 100px;
+}
+
+.footer {
+    display: flex;
+    padding: 0 100px;
+    justify-content: space-between;
+}
