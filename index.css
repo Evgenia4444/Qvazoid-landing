@@ -124,22 +124,23 @@ button {
     display: flex;
     justify-content: space-between;
     padding: 0 100px;
+    margin-bottom: 140px;
 }
 
 .section_6 container {
     max-width: 590px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 100px;
+    
 }
 
-.section_6 h2 {
-    font-family: 'PT Mono', monospace;
+.section_6 .container h2 {
+    font-family: Flicker;
+    font-weight: 300;
+    font-size: 110px;
+    line-height: 90px;
 }
 
-.section_6 h2 {
-    font-family: 'PT Mono', monospace;
-}
 
 
 .prefooter {
