@@ -1,11 +1,11 @@
 @font-face {
     font-family: Flicker;
-    src: url(flicker4.woff);
+    src: url(./assets/flicker4.woff);
   }
 
 body {
 background-color: #151515;
-background-image: url(assets/grid.png);
+background-image: url(./assets/grid.png);
 }
 
 header {
@@ -83,7 +83,7 @@ button {
     justify-content: space-between;
     padding: 40px 100px;
     background-color: #6CE86C;
-    background-image: url(assets/grid.png);
+    background-image: url(./assets/grid.png);
     margin-bottom: 120px;
 }
 
